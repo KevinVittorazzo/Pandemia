@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:Bahnschrift, arial, helvetica, sans-serif;
+	font-size: 1em;
+	text-align: justify;
+	background-color: #2E8C83;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	Font-family: Broadway, 'Times Nem Roman';
+}
+ul, ol {
+	margin-left: 17px;
+}
+li {
+	margin: 15px 2px;
+	color: #000;
+}
+p {
+	color: #000;
+}
+.grafico_img, .foto_index, .foto_dicas, .img_noticia, .img_postagem, #logo_div {
+	border-style: solid;
+	border-color: #102A5C;
+}
+#cabecalho_div, #rodape_div {
+	padding: 5px;
+	background-color: #D9525E;
+	width: 99,5%;
+}
+#cabecalho_div {
+	margin: 5px;
+	height: 380px;
+	Font-family: Broadway, 'Times Nem Roman';
+}
+#logo_div {
+	height: 300px;
+	width: 99,9%;
+}
+#logo_img {
+	max-height: 300px;
+	width: 100%;
+}
+#menu_div {
+	margin: 5px;
+	padding: 5px;
+	background-color: #102a5c;
+	width: 20%;
+	height: 25px;
+	font-size: 16px;
+}
+#home_img {
+	max-height: 20px;
+}
+#cabecalho_div a:visited, #cabecalho_div a:link {
+	color: #000;
+	text-decoration: none;
+	margin: 0px 10px;
+}
+#cabecalho_div a:active {
+	color: #d9525e;
+	text-decoration: unset;
+	margin: 0px 0px;
+}
+#cabecalho_div a:hover, #background_home {
+	background-color: #175073;
+	text-decoration: underline;
+	text-decoration-color: #d9525e;
+	margin: 5px 5px;
+}
+#principal_div {
+	display: flex;
+	justify-content: space-evenly;
+	height: 700px;
+	width: 99,5%;
+}
+#principal_div a:visited, #principal_div a:link {
+	color: #D9525E;
+	text-decoration: underline;
+}
+#principal_div a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+/*Index.html*/
+#area_esquerda {
+	padding: 5px;
+	width: 34%;
+	height: 680px;
+}
+#area_central {
+	padding: 5px;
+	width: 34%;
+	height: 680px;
+	float: left;
+}
+#postagem_esquerda {
+	width: 48%;
+	height: 350px;
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 3px;
+	margin-top: 5px;
+}
+#postagem_direita {
+	width: 48%;
+	height: 350px;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	margin-top: 5px;
+}
+#area_direita {
+	padding: 5px;
+	width: 28.5%;
+	height: 680px;
+}
+/*dados.html*/
+#direita_div {
+	padding-left: 5px;
+	width: 49%;
+	height: 720px;
+}
+#esquerda_div {
+	width: 50%;
+	height: 720px;
+}
+/*estilos gerais*/
+.titulos_div {
+	background-color: #2e8c83;
+	margin: 5px;
+	text-align: center;
+}
+.cor_lista {
+	color: #d9525e;
+}
+.cor_divs {
+	background-color: #175073;
+}
+.cor_divs_textos {
+	background-color: #05F2AF;
+}
+.postagens_laterais {
+	width: 98%;
+	height: 200px;
+	margin: 5px 0px;
+	padding: 5px;
+}
+.no-float {
+	clear: both;
+}
+/*divs de dicas*/
+.foto_dicas_div {
+	float: right;
+	width: 18%;
+}
+.rede_social_div {
+	float: right;
+	width: 4%;
+}
+.texto_dicas_div {
+	float: left;
+	width: 77%;
+}
+.lista_div {
+	margin: 5px 0px;
+	margin-left: 5px;
+	width: 33%;
+	height: 710px;
+}
+/*estilos_imagens*/
+.grafico_img {
+	max-height: 300px;
+	max-width: 100%;
+}
+.foto_index {
+	max-height: 300px;
+}
+.foto_dicas {
+	max-height: 200px;
+}
+.img_noticia {
+	max-height: 50px;
+}
+.img_postagem {
+	margin: 5px;
+	max-height: 100px;
+}
+.rede_social {
+	max-height: 25px;
+}
